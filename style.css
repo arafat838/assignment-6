@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* heading section css */
+
+body{
+    font-family: "Poppins", sans-serif;
+    /*   font-family: "Roboto", sans-serif; */
+}
+.navbar{
+    background: #F0FFF0;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.navbar .nav-item{
+    margin-right: 25px;
+}
+.navbar .nav-item .nav-link{
+    color: black;
+}
+.signin{
+    font-family: "Roboto", sans-serif;
+    background: #21B573;
+    padding: 1px 20px;
+    border-radius: 33px;
+    transition: 0.6s;
+
+    
+
+}
+.sign-c{
+    color: white !important;
+}
+.signin:hover{
+    background: #09eb85;
+    transition: 0.6s;
+
+}
+/* banner section css */
+.banner-section{
+    width: 100%;
+    background: #F0FFF0;
+    padding: 50px 0px 60px;
+
+}
+.content{
+    margin-top: 30px;
+}
+.content .frist{
+    color: #FD511A;
+
+}
+.content h1{
+    width: 68%;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+    margin: -8px 0px 25px;
+}
+.content h1 span{
+    color: #21B573;
+    ;
+
+}
+.content .secand{
+    line-height: 36px;
+    width: 55%;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.content .get-started{
+    margin-top: 25px;
+    
+}
+.content .get-started a{
+    font-family: "Roboto", sans-serif;
+    padding: 12px 36px;
+    border: 1px solid black;
+    background: #21B573;
+    border-radius: 33px;
+    text-decoration: none;
+    color: white;
+    transition: 0.6s;
+
+}
+.content .get-started a:hover{
+    background: #09eb85;
+    transition: 0.6s;
+}
+.banner{
+    margin-top: -25px;
+
+}
+
+/* feature section css */
+
+.feature{
+    width: 100%;
+    padding: 50px 0px 60px;
+}
+
+.feature .f-card{
+    text-align: center;
+    padding: 50px 0px;
+    margin: 0px 5px;
+    background: #F8FFFB;
+    border-radius: 10px;
+    transition: 0.7s;
+
+}
+.feature .f-card:hover{
+    box-shadow: 0px 20px 40px 0px #0000001A;
+    transition: 0.7s;
+}
+
+.feature .f-card h5{
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+/* courses section css */
+
+
+.course-section{
+    width: 100%;
+    padding: 40px 50px;
+
+}
+.inner{
+    box-shadow: 0px 10px 40px 0px #0000001A;
+    padding: 20px;
+    border-radius: 18px;
+    margin: 0px 5px;
+
+
+}
+.course-section h2{
+     font-size: 36px;
+    font-weight: 700;
+     line-height: 54px;
+     text-align: center;
+     margin-bottom: 80px;
+
+}
+.content h4{
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+
+}
+.buycourse{
+    margin-top: 30px;
+}
+.content .buycourse a{
+    font-family: "Roboto", sans-serif;
+    background: #21B573;
+    padding: 8px 28px;
+    color: white;
+    text-decoration: none;
+    border-radius: 33px;
+    transition: 0.7s;
+
+}
+.content .buycourse a:hover{
+    background: #09eb85;
+    transition: 0.7s;
+
+
+}
+.c-foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px 5px;
+}
+
+/* testimonial css */
+.testimonial{
+    margin:25px 0px 90px;
+}
+
+.t-img{
+    text-align: right;
+}
+.container h4{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    padding: 30px 0px 30px;
+    
+}
+.testimonial p{
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+margin: 15px 0px 0px 20px;
+color: #000000;
+
+
+}
+
+/* footer section css */
+
+footer{
+    background: #282531;
+    color: white;
+    padding: 50px 0px 20px;
+}
+footer .para{
+    width: 66%;
+    line-height: 30px;
+}
+.Copyright{
+    text-align: center;
+    color: #CDCDCD;
+
+}
+
+footer ul li{
+    list-style-type: none;
+
+}
+footer h6{
+    margin-left: 32px;
+    font-weight: 700;
+}
